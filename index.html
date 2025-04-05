@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<link rel="stylesheet" type="text/css" href="./CSS/TextBoxTable.css">
+    	<link rel="stylesheet" type="text/css" href="./CSS/Styles.css">
+    	<script type="text/javascript" src="./JS/Columns.js"></script>
+    	<script type="text/javascript" src="./JS/Helpers.js"></script>
+    	<script type="text/javascript" src="./JS/NewRow.js"></script>
+    	<script type="text/javascript" src="./JS/Roll.js"></script>
+	</head>
+    <body>
+    	<h1 id="MainHeader" class="Header">Simple AutoRolling Initiative Tracker</h1>
+    	<table id="TextBoxTable" class="TextBoxTable">	
+	        <tr id="TableHeaders">
+	        	<th id="CreaturesHeader" class="TextBoxTableHeader">Creatures</th>
+	        	<th id="BonusHeader" class="TextBoxTableHeader">Initiative Bonus</th>
+	        	<th id="CountHeader" class="TextBoxTableHeader">Count</th>
+	        	<th id="RolledInitiative" class="TextBoxTableHeader">Rolled Initiative</th>
+			</tr>
+		</table>
+		<div id="Buttons" class="ButtonsGrid">
+			<button id="AddNewRowButton" class="Button" onclick="AddNewRow()">Add New Row</button>
+			<button id="RollButton" class="Button" onclick="Roll()">Roll</button>
+			<button id="DeleteRow" class="Button" onclick="deleteRow()">Delete Bottom Row</button>
+		</div>
+    </body>
+    <script>AddNewRow()</script>
+    <script>AddNewRow()</script>
+    <script>AddNewRow()</script>
+</html>

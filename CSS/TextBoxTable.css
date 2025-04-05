@@ -1,0 +1,17 @@
+.TextBoxTable
+{
+	width: 100%;
+}
+.TextBoxTableHeader
+{
+	color: purple;
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+}
+.TextBoxTableContent
+{
+	padding: 5px;
+	font-size: 15px;
+	text-align: center;
+}
